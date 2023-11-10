@@ -1,0 +1,118 @@
+@import url('./configurator.css');
+
+body {
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+span {
+    cursor: default !important;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Assets */
+.text-muted {
+    color: #6c757d !important;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.mt-6 {
+    margin-top: 10rem;
+}
+
+.mb-6 {
+    margin-bottom: 10rem;
+}
+
+.text-primary {
+    color: var(--color-primary) !important;
+}
+
+.btn-warning {
+    background-color: var(--color-primary) !important;
+    border: none;
+}
+
+.btn-warning:hover {
+    color: var(--color-secondary) !important;
+}
+
+.btn-outline-warning {
+    border: 0.1rem solid var(--color-primary) !important;
+    color: var(--color-primary) !important;
+    transition: all 0.5s ease;
+}
+
+.btn-outline-warning:hover {
+    background-color: var(--color-primary) !important;
+    color: white !important;
+}
+
+.bg-danger {
+    background-color: var(--color-secondary) !important;
+}
+
+.bg-dark {
+    background-color: var(--color-dark) !important;
+}
+
+.w-md-50 {
+    min-width: 50% !important;
+}
+
+/* Start my styles */
+/* -> Header background */
+.background {
+    position: relative;
+    z-index: 0;
+    background: url(../imgs/background.jpg) no-repeat center center;
+    width: 100%;
+    height: 100vh;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.tag {
+    color: var(--color-dark);
+}
+
+/* -> Main */
+.main {
+    padding: 20rem;
+}
+
+/* -> Guest infromation */
+.img {
+    height: 50rem;
+    object-fit: cover;
+}
+
+/* -> Bets foods */
+.images>img {
+    width: 20rem;
+}
+
+.body-scroll {
+    padding-top: 8.6rem;
+}

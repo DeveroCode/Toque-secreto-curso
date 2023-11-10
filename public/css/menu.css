@@ -1,0 +1,36 @@
+@import url(./configurator.css);
+
+.link {
+    font-size: 1.7rem;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: var(--color-primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--color-primary) !important;
+    border: none !important;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-items {
+    transition: all 0.3s;
+}
+
+.card-items:hover {
+    background-color: #fff !important;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.container-lg {
+
+    width: 1600px;
+}
